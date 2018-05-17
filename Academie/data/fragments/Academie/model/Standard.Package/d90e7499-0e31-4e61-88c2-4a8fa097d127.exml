@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="academie" version="4">
+  <OBJECT>
+    <ID name="academie" mc="Standard.Package" uid="d90e7499-0e31-4e61-88c2-4a8fa097d127"/>
+    <PID name="Academie" mc="Standard.Project" uid="59d40357-f1de-48ff-9f6a-d517d6914083"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[academie]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Voir données d'un Collège" mc="Standard.UseCase" uid="c5300868-5965-490f-8079-03d7cf99e676"/>
+        <COMPID name="Voir départements d'un Collège" mc="Standard.UseCase" uid="7eaffb53-e321-4f42-a884-83b5581ee415"/>
+        <COMPID name="Voir info d'un département" mc="Standard.UseCase" uid="f65c96a0-c147-4695-a7ae-9b0b578d3b52"/>
+        <COMPID name="Voir info d'un enseignant" mc="Standard.UseCase" uid="00a46341-6383-4e30-97bc-fcf500a5d699"/>
+        <COMPID name="Voir info étudiants" mc="Standard.UseCase" uid="6edd5880-2d6e-4bc6-8b34-4c2a1b1602ec"/>
+        <COMPID name="Voir matières" mc="Standard.UseCase" uid="f6835853-3868-44b7-b115-710a92f0350d"/>
+        <COMPID name="Voir enseignants affectés" mc="Standard.UseCase" uid="0b16c757-00b4-4cdc-ac44-9ff4fe92fe48"/>
+        <COMPID name="Voir note" mc="Standard.UseCase" uid="f735e1d4-759e-41bc-8d1c-f4123295c43e"/>
+        <COMPID name="Voir matières non notées" mc="Standard.UseCase" uid="ff3277d9-fd2b-4060-882a-2d275964a920"/>
+        <COMPID name="Calculer moyenne générale" mc="Standard.UseCase" uid="e19330f6-bce7-4bc7-a094-10a9b069bd77"/>
+        <COMPID name="Voir Responsable du département" mc="Standard.UseCase" uid="59d8d237-491b-4932-a599-15e68c5236ef"/>
+        <COMPID name="Voir info matière" mc="Standard.UseCase" uid="ba5a32eb-a364-4935-94bb-3305bae86f87"/>
+        <COMPID name="Voir salle" mc="Standard.UseCase" uid="6ce13901-49e5-4a3e-96a7-b7821929fe86"/>
+        <COMPID name="Voir nombre de places" mc="Standard.UseCase" uid="7f898237-34a6-4799-bf63-a79a38c63919"/>
+        <COMPID name="Calculer motenne" mc="Standard.UseCase" uid="5b77ddb0-11de-4fe5-b0fa-6ffe1b959651"/>
+        <COMPID name="Calculer moyenne" mc="Standard.UseCase" uid="4fcac4c8-134b-4b7b-b12f-c7bf79f2e406"/>
+        <COMPID name="Imprimer fiche signalétique" mc="Standard.UseCase" uid="5c70172b-62b5-4463-a417-6f72bc32e767"/>
+        <COMPID name="Imprimer fiche signalétique" mc="Standard.UseCase" uid="7d9ad8b1-5902-4a8b-aa46-1f9ce5ef0ed4"/>
+        <COMPID name="Admin" mc="Standard.Actor" uid="80554905-f70f-4258-8641-a07b7188ae35"/>
+        <COMPID name="User" mc="Standard.Actor" uid="ca5e0314-9d06-44f4-8ea6-8538581f7af1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="academie Use Case diagram" mc="Standard.UseCaseDiagram" uid="169b042b-0f5d-4b1a-9256-43597fa3ef91"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
